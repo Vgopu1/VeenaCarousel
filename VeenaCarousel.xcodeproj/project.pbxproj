@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035E2B251BD3F7AF004F43B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E2B241BD3F7AF004F43B3 /* AppDelegate.swift */; };
+		035E2B271BD3F7AF004F43B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E2B261BD3F7AF004F43B3 /* ViewController.swift */; };
+		035E2B2A1BD3F7AF004F43B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035E2B281BD3F7AF004F43B3 /* Main.storyboard */; };
+		035E2B2C1BD3F7AF004F43B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035E2B2B1BD3F7AF004F43B3 /* Assets.xcassets */; };
+		035E2B2F1BD3F7AF004F43B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035E2B2D1BD3F7AF004F43B3 /* LaunchScreen.storyboard */; };
+		035E2B3A1BD3F7AF004F43B3 /* VeenaCarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E2B391BD3F7AF004F43B3 /* VeenaCarouselTests.swift */; };
+		035E2B451BD3F7AF004F43B3 /* VeenaCarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E2B441BD3F7AF004F43B3 /* VeenaCarouselUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		035E2B361BD3F7AF004F43B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035E2B191BD3F7AF004F43B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035E2B201BD3F7AF004F43B3;
+			remoteInfo = VeenaCarousel;
+		};
+		035E2B411BD3F7AF004F43B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035E2B191BD3F7AF004F43B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035E2B201BD3F7AF004F43B3;
+			remoteInfo = VeenaCarousel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035E2B211BD3F7AF004F43B3 /* VeenaCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeenaCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		035E2B241BD3F7AF004F43B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		035E2B261BD3F7AF004F43B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		035E2B291BD3F7AF004F43B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		035E2B2B1BD3F7AF004F43B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		035E2B2E1BD3F7AF004F43B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		035E2B301BD3F7AF004F43B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035E2B351BD3F7AF004F43B3 /* VeenaCarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeenaCarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		035E2B391BD3F7AF004F43B3 /* VeenaCarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeenaCarouselTests.swift; sourceTree = "<group>"; };
+		035E2B3B1BD3F7AF004F43B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035E2B401BD3F7AF004F43B3 /* VeenaCarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeenaCarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		035E2B441BD3F7AF004F43B3 /* VeenaCarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeenaCarouselUITests.swift; sourceTree = "<group>"; };
+		035E2B461BD3F7AF004F43B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		035E2B1E1BD3F7AF004F43B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035E2B321BD3F7AF004F43B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035E2B3D1BD3F7AF004F43B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035E2B181BD3F7AF004F43B3 = {
+			isa = PBXGroup;
+			children = (
+				035E2B231BD3F7AF004F43B3 /* VeenaCarousel */,
+				035E2B381BD3F7AF004F43B3 /* VeenaCarouselTests */,
+				035E2B431BD3F7AF004F43B3 /* VeenaCarouselUITests */,
+				035E2B221BD3F7AF004F43B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		035E2B221BD3F7AF004F43B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				035E2B211BD3F7AF004F43B3 /* VeenaCarousel.app */,
+				035E2B351BD3F7AF004F43B3 /* VeenaCarouselTests.xctest */,
+				035E2B401BD3F7AF004F43B3 /* VeenaCarouselUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		035E2B231BD3F7AF004F43B3 /* VeenaCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				035E2B241BD3F7AF004F43B3 /* AppDelegate.swift */,
+				035E2B261BD3F7AF004F43B3 /* ViewController.swift */,
+				035E2B281BD3F7AF004F43B3 /* Main.storyboard */,
+				035E2B2B1BD3F7AF004F43B3 /* Assets.xcassets */,
+				035E2B2D1BD3F7AF004F43B3 /* LaunchScreen.storyboard */,
+				035E2B301BD3F7AF004F43B3 /* Info.plist */,
+			);
+			path = VeenaCarousel;
+			sourceTree = "<group>";
+		};
+		035E2B381BD3F7AF004F43B3 /* VeenaCarouselTests */ = {
+			isa = PBXGroup;
+			children = (
+				035E2B391BD3F7AF004F43B3 /* VeenaCarouselTests.swift */,
+				035E2B3B1BD3F7AF004F43B3 /* Info.plist */,
+			);
+			path = VeenaCarouselTests;
+			sourceTree = "<group>";
+		};
+		035E2B431BD3F7AF004F43B3 /* VeenaCarouselUITests */ = {
+			isa = PBXGroup;
+			children = (
+				035E2B441BD3F7AF004F43B3 /* VeenaCarouselUITests.swift */,
+				035E2B461BD3F7AF004F43B3 /* Info.plist */,
+			);
+			path = VeenaCarouselUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		035E2B201BD3F7AF004F43B3 /* VeenaCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035E2B491BD3F7AF004F43B3 /* Build configuration list for PBXNativeTarget "VeenaCarousel" */;
+			buildPhases = (
+				035E2B1D1BD3F7AF004F43B3 /* Sources */,
+				035E2B1E1BD3F7AF004F43B3 /* Frameworks */,
+				035E2B1F1BD3F7AF004F43B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeenaCarousel;
+			productName = VeenaCarousel;
+			productReference = 035E2B211BD3F7AF004F43B3 /* VeenaCarousel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		035E2B341BD3F7AF004F43B3 /* VeenaCarouselTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035E2B4C1BD3F7AF004F43B3 /* Build configuration list for PBXNativeTarget "VeenaCarouselTests" */;
+			buildPhases = (
+				035E2B311BD3F7AF004F43B3 /* Sources */,
+				035E2B321BD3F7AF004F43B3 /* Frameworks */,
+				035E2B331BD3F7AF004F43B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035E2B371BD3F7AF004F43B3 /* PBXTargetDependency */,
+			);
+			name = VeenaCarouselTests;
+			productName = VeenaCarouselTests;
+			productReference = 035E2B351BD3F7AF004F43B3 /* VeenaCarouselTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		035E2B3F1BD3F7AF004F43B3 /* VeenaCarouselUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035E2B4F1BD3F7AF004F43B3 /* Build configuration list for PBXNativeTarget "VeenaCarouselUITests" */;
+			buildPhases = (
+				035E2B3C1BD3F7AF004F43B3 /* Sources */,
+				035E2B3D1BD3F7AF004F43B3 /* Frameworks */,
+				035E2B3E1BD3F7AF004F43B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035E2B421BD3F7AF004F43B3 /* PBXTargetDependency */,
+			);
+			name = VeenaCarouselUITests;
+			productName = VeenaCarouselUITests;
+			productReference = 035E2B401BD3F7AF004F43B3 /* VeenaCarouselUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		035E2B191BD3F7AF004F43B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Veena;
+				TargetAttributes = {
+					035E2B201BD3F7AF004F43B3 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					035E2B341BD3F7AF004F43B3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 035E2B201BD3F7AF004F43B3;
+					};
+					035E2B3F1BD3F7AF004F43B3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 035E2B201BD3F7AF004F43B3;
+					};
+				};
+			};
+			buildConfigurationList = 035E2B1C1BD3F7AF004F43B3 /* Build configuration list for PBXProject "VeenaCarousel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 035E2B181BD3F7AF004F43B3;
+			productRefGroup = 035E2B221BD3F7AF004F43B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				035E2B201BD3F7AF004F43B3 /* VeenaCarousel */,
+				035E2B341BD3F7AF004F43B3 /* VeenaCarouselTests */,
+				035E2B3F1BD3F7AF004F43B3 /* VeenaCarouselUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		035E2B1F1BD3F7AF004F43B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035E2B2F1BD3F7AF004F43B3 /* LaunchScreen.storyboard in Resources */,
+				035E2B2C1BD3F7AF004F43B3 /* Assets.xcassets in Resources */,
+				035E2B2A1BD3F7AF004F43B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035E2B331BD3F7AF004F43B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035E2B3E1BD3F7AF004F43B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		035E2B1D1BD3F7AF004F43B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035E2B271BD3F7AF004F43B3 /* ViewController.swift in Sources */,
+				035E2B251BD3F7AF004F43B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035E2B311BD3F7AF004F43B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035E2B3A1BD3F7AF004F43B3 /* VeenaCarouselTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035E2B3C1BD3F7AF004F43B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035E2B451BD3F7AF004F43B3 /* VeenaCarouselUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		035E2B371BD3F7AF004F43B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035E2B201BD3F7AF004F43B3 /* VeenaCarousel */;
+			targetProxy = 035E2B361BD3F7AF004F43B3 /* PBXContainerItemProxy */;
+		};
+		035E2B421BD3F7AF004F43B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035E2B201BD3F7AF004F43B3 /* VeenaCarousel */;
+			targetProxy = 035E2B411BD3F7AF004F43B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		035E2B281BD3F7AF004F43B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035E2B291BD3F7AF004F43B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		035E2B2D1BD3F7AF004F43B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035E2B2E1BD3F7AF004F43B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		035E2B471BD3F7AF004F43B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		035E2B481BD3F7AF004F43B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		035E2B4A1BD3F7AF004F43B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VeenaCarousel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOSTraining.VeenaCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		035E2B4B1BD3F7AF004F43B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VeenaCarousel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOSTraining.VeenaCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		035E2B4D1BD3F7AF004F43B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VeenaCarouselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOSTraining.VeenaCarouselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeenaCarousel.app/VeenaCarousel";
+			};
+			name = Debug;
+		};
+		035E2B4E1BD3F7AF004F43B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VeenaCarouselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOSTraining.VeenaCarouselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeenaCarousel.app/VeenaCarousel";
+			};
+			name = Release;
+		};
+		035E2B501BD3F7AF004F43B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VeenaCarouselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOSTraining.VeenaCarouselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VeenaCarousel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		035E2B511BD3F7AF004F43B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VeenaCarouselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOSTraining.VeenaCarouselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VeenaCarousel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		035E2B1C1BD3F7AF004F43B3 /* Build configuration list for PBXProject "VeenaCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035E2B471BD3F7AF004F43B3 /* Debug */,
+				035E2B481BD3F7AF004F43B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035E2B491BD3F7AF004F43B3 /* Build configuration list for PBXNativeTarget "VeenaCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035E2B4A1BD3F7AF004F43B3 /* Debug */,
+				035E2B4B1BD3F7AF004F43B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		035E2B4C1BD3F7AF004F43B3 /* Build configuration list for PBXNativeTarget "VeenaCarouselTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035E2B4D1BD3F7AF004F43B3 /* Debug */,
+				035E2B4E1BD3F7AF004F43B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		035E2B4F1BD3F7AF004F43B3 /* Build configuration list for PBXNativeTarget "VeenaCarouselUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035E2B501BD3F7AF004F43B3 /* Debug */,
+				035E2B511BD3F7AF004F43B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 035E2B191BD3F7AF004F43B3 /* Project object */;
+}
