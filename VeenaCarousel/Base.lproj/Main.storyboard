@@ -7,48 +7,48 @@
         <!--IntroViewController-->
         <scene sceneID="2ME-FX-3Oj">
             <objects>
-                <viewController title="IntroViewController" id="ZsP-gb-ghQ" customClass="IntroViewController" customModule="VeenaCarousel" sceneMemberID="viewController">
+                <viewController title="IntroViewController" id="ZsP-gb-ghQ" customClass="IntroViewController" customModule="VeenaCarousel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w6A-25-n56">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="323" height="1061"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="xRD-dU-uEt">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                <rect key="frame" x="0.0" y="-31" width="323" height="1061"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro" id="e1s-A0-Y44">
-                                        <rect key="frame" x="0.0" y="0.0" width="326" height="1000"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="323" height="1061"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile1" id="BHX-lB-V3x">
-                                        <rect key="frame" x="44" y="596" width="160" height="147"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile1" id="9SP-an-WZj">
+                                        <rect key="frame" x="32" y="626" width="180" height="143"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile2" id="j9w-fp-gus">
-                                        <rect key="frame" x="200" y="596" width="82" height="75"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile2" id="z5W-fK-FTz">
+                                        <rect key="frame" x="209" y="626" width="85" height="73"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile3" id="cs0-uA-JPR">
-                                        <rect key="frame" x="200" y="669" width="82" height="74"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile6" id="ruW-S2-noG">
+                                        <rect key="frame" x="209" y="768" width="85" height="77"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile6" id="nKu-cp-JgY">
-                                        <rect key="frame" x="200" y="741" width="82" height="74"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile5" id="YUa-lE-kYj">
+                                        <rect key="frame" x="119" y="768" width="93" height="77"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile4" id="onB-bT-hdW">
-                                        <rect key="frame" x="44" y="740" width="82" height="74"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile4" id="rnV-GC-L7X">
+                                        <rect key="frame" x="32" y="768" width="90" height="77"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile5" id="6Kf-Ni-U7T">
-                                        <rect key="frame" x="122" y="741" width="82" height="74"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile3" id="bfd-M5-FbB">
+                                        <rect key="frame" x="209" y="697" width="85" height="72"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cUr-VL-cLj">
-                                        <rect key="frame" x="20" y="937" width="287" height="44"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="t9f-O7-RE0">
+                                        <rect key="frame" x="0.0" y="321" width="323" height="190"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="LNt-6f-cYg" kind="modal" id="160-b8-Xnu"/>
+                                            <segue destination="LNt-6f-cYg" kind="modal" id="ngP-XC-w0H"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -57,7 +57,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="1000"/>
+                    <size key="freeformSize" width="323" height="1061"/>
                     <connections>
                         <outlet property="imageView" destination="e1s-A0-Y44" id="KGe-Ol-M79"/>
                         <outlet property="scrollView" destination="xRD-dU-uEt" id="Ebb-2t-ivg"/>
@@ -70,7 +70,7 @@
         <!--SingInViewController-->
         <scene sceneID="KuE-QO-4OR">
             <objects>
-                <viewController title="SingInViewController" id="LNt-6f-cYg" sceneMemberID="viewController">
+                <viewController title="SingInViewController" id="LNt-6f-cYg" customClass="SignInViewController" customModule="VeenaCarousel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8mW-3W-mus">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,42 +87,67 @@
                                         <rect key="frame" x="0.0" y="75" width="320" height="69"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" id="qMf-s9-RqN">
-                                        <rect key="frame" x="8" y="171" width="304" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" id="eYz-uf-fY0">
-                                        <rect key="frame" x="8" y="227" width="304" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                                    </textField>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign_in_buttons" id="Cf0-eW-hOW">
                                         <rect key="frame" x="8" y="334" width="305" height="94"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_form" id="Xln-DO-WSg">
+                                        <rect key="frame" x="0.0" y="152" width="320" height="135"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" id="qMf-s9-RqN">
+                                        <rect key="frame" x="8" y="178" width="304" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="EditingChanged:" destination="LNt-6f-cYg" eventType="editingDidEnd" id="2cu-vN-2rk"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" id="eYz-uf-fY0">
+                                        <rect key="frame" x="8" y="232" width="304" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <connections>
+                                            <action selector="EditingChanged:" destination="LNt-6f-cYg" eventType="editingDidEnd" id="JtA-Mo-kbB"/>
+                                        </connections>
+                                    </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="W0o-Fg-uXG">
                                         <rect key="frame" x="26" y="343" width="269" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="onTap:" destination="LNt-6f-cYg" eventType="touchUpInside" id="Yeo-YE-upb"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ig7-tg-7yX">
                                         <rect key="frame" x="26" y="396" width="269" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_form" id="Xln-DO-WSg">
-                                        <rect key="frame" x="0.0" y="152" width="320" height="135"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                 </subviews>
+                                <gestureRecognizers/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="UfK-eh-2Kn" appends="YES" id="7kx-ua-SCj"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="bsP-s9-jaO"/>
+                    <connections>
+                        <outlet property="Email" destination="qMf-s9-RqN" id="She-kg-uhy"/>
+                        <outlet property="LoginForm" destination="Xln-DO-WSg" id="NzY-UT-G8i"/>
+                        <outlet property="Password" destination="eYz-uf-fY0" id="sAr-yV-3Yb"/>
+                        <outlet property="SignInButton" destination="W0o-Fg-uXG" id="s7X-fB-6se"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qKD-21-hls" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="UfK-eh-2Kn">
+                    <connections>
+                        <action selector="onTap:" destination="LNt-6f-cYg" id="SSI-du-pV8"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="151" y="1109"/>
         </scene>

@@ -12,6 +12,21 @@
     },
     {
       "idiom" : "iphone",
+      "size" : "29x29",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "40x40",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "40x40",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "iphone",
       "size" : "57x57",
       "scale" : "1x"
     },
@@ -21,11 +36,14 @@
       "scale" : "2x"
     },
     {
-      "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "app_icon@2x copy.png",
-      "unassigned" : true,
+      "size" : "60x60",
       "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "60x60",
+      "scale" : "3x"
     }
   ],
   "info" : {
