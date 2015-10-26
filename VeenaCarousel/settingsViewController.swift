@@ -1,29 +1,28 @@
 //
-//  IntroViewController.swift
+//  settingsViewController.swift
 //  VeenaCarousel
 //
-//  Created by Veena on 10/18/15.
+//  Created by Veena on 10/25/15.
 //  Copyright © 2015 Veena. All rights reserved.
 //
 
 import UIKit
 
-class IntroViewController: UIViewController {
+class settingsViewController: UIViewController {
+    
+    @IBOutlet weak var signOutButton: UIButton!
+    
+    @IBOutlet weak var settingsScroll: UIScrollView!
 
-    @IBOutlet weak var scrollView: UIScrollView!
-    
-    
-    @IBOutlet weak var imageView: UIImageView!
-    
-    
-    @IBOutlet weak var SigninButton: UIButton!
+    @IBOutlet weak var settingsImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-            
         
-       scrollView.contentSize = imageView.image!.size
-        
+       // settingsScroll.contentSize = settingsImageView.image!.size
+       
+        settingsScroll.contentSize = CGSize(width:320, height:924)
+
         // Do any additional setup after loading the view.
     }
 
@@ -32,7 +31,12 @@ class IntroViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet weak var settingsback: UIButton!
+    
 
+    @IBAction func settingsback(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+            }
     /*
     // MARK: - Navigation
 

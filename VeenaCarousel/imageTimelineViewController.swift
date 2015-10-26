@@ -1,29 +1,18 @@
 //
-//  IntroViewController.swift
+//  imageTimelineViewController.swift
 //  VeenaCarousel
 //
-//  Created by Veena on 10/18/15.
+//  Created by Veena on 10/25/15.
 //  Copyright © 2015 Veena. All rights reserved.
 //
 
 import UIKit
 
-class IntroViewController: UIViewController {
+class imageTimelineViewController: UIViewController {
 
-    @IBOutlet weak var scrollView: UIScrollView!
-    
-    
-    @IBOutlet weak var imageView: UIImageView!
-    
-    
-    @IBOutlet weak var SigninButton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-            
-        
-       scrollView.contentSize = imageView.image!.size
-        
+
         // Do any additional setup after loading the view.
     }
 
