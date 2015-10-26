@@ -8,7 +8,7 @@ Time spent: 25 hours
 
 This is an implementation of the Swift carousel app by following Week2 assignment exercises and courses by CodePath.
 
-![Demo of CarouselApp](CarouselAppDemo.gif)
+![Demo of CarouselApp](CarouselDemo.gif)
 
 * [x] Required: Static photo tiles on the initial screen
 * [x] Required: Tapping on email/password reveals the keyboard and shifts the scrollview and Sign In button up.
@@ -24,7 +24,6 @@ This is an implementation of the Swift carousel app by following Week2 assignmen
 * [x] Required: Settings: User can dismiss the settings screen.
 * [x] Required: Settings: User can log out
 ## What's different/open issues
-
 - Error while using push navigation to conversations button to see the conversations screen (push)
 
 ## Credit
